@@ -1,0 +1,23 @@
+Settings:
+  removeColonCompletions: true
+  removeTwoSlashCompletions: true
+  isWhiteListType: true
+
+Groups:
+  user:
+    showOtherGroupCommands: []
+    Commands:
+      - "help"
+  vip:
+    showOtherGroupCommands:
+      - "user"
+    Commands:
+      - "msg"
+  admin:
+    showOtherGroupCommands:
+      - "user"
+      - "vip"
+    Commands:
+      - "about"
+      - "plugins"
+      - "pl"

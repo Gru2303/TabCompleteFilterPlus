@@ -1,0 +1,13 @@
+name: TabCompleteFilterPlus
+version: ${project.version}
+authors: [Gru2303]
+description: Plugin to make life easier for players :)
+
+depend: [Vault]
+api-version: 1.13
+main: me.Gru2303.TabCompleteFilterPlus.TabCompleteFilterPlus
+
+commands:
+  tabcompletefilterplus:
+    description: "Admin Command"
+    aliases: [tcfp, tabfilter, tabfilterplus, tabcompletefilter]
